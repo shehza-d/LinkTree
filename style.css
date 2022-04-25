@@ -1,3 +1,35 @@
 body{
-	background-image: url;
+	background-image: url("./img/purpleimgbg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+/* #2E365B */
+body>ul{
+	/* margin: auto; */
+	text-align: center;
+	list-style: none;
+	display:flex;
+	flex-direction:column;
+}
+a{
+	padding: 15px;
+	text-decoration: none;
+	background-color: rgb(158, 157, 171);
+	border-radius: 50px;
+	color: rgb(20, 3, 255);
+}
+.icons{
+	width: 25px;
+	/* padding-right: 13px; */
+    fill: rgb(18, 30, 243);
+    cursor: pointer;
+	padding-top: 20px;
+}
+a:hover{
+	color: aquamarine;
+}
+.icons:hover{
+    fill: #59a659;
 }
