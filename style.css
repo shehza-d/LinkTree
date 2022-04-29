@@ -13,12 +13,19 @@ body>ul{
 	display:flex;
 	flex-direction:column;
 }
+body>ul>li{
+	margin: 25px;
+
+}
 a{
-	padding: 15px;
+	padding: 25px;
+	padding-left: 45px;
+	padding-right: 45px;
 	text-decoration: none;
 	background-color: rgb(158, 157, 171);
 	border-radius: 50px;
 	color: rgb(20, 3, 255);
+	margin-top: 100px;
 }
 .icons{
 	width: 25px;
